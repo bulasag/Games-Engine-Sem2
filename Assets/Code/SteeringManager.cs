@@ -249,6 +249,7 @@ namespace BGE
 					currentScenario.Start();
 					scene3 = true;
 					GameObject.FindGameObjectWithTag ("explosionframe").guiTexture.enabled = true;
+					GameObject.FindGameObjectWithTag ("explosionframe").audio.Play ();
 				}
 			}
 

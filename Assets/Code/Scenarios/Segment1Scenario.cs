@@ -92,6 +92,7 @@ namespace BGE.Scenarios
 
         public override void Update()
         {
+			GameObject.FindGameObjectWithTag ("flames").transform.position = new Vector3(leader.transform.position.x - 10, leader.transform.position.y, leader.transform.position.z);
 
             SteeringManager.PrintMessage("Press P to toggle smooth paths");
             SteeringManager.PrintMessage("Press O to toggle 3D paths");

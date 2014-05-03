@@ -73,5 +73,10 @@ namespace BGE.Scenarios
             Vector3 camOffset = new Vector3(0, 5, fleetSize * zOff);
             CreateCamFollower(leader, camOffset);
         }
+
+		public override void Update()
+		{
+			GameObject.FindGameObjectWithTag ("flames").transform.position = new Vector3(leader.transform.position.x, leader.transform.position.y, leader.transform.position.z - 10);
+		}
     }
 }

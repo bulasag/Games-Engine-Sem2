@@ -1,10 +1,10 @@
 ﻿#pragma strict
 
-var boostsound : AudioClip;
+var sound : AudioClip;
 
 function Start () {
 
-	AudioSource.PlayClipAtPoint(boostsound, transform.position);
+	AudioSource.PlayClipAtPoint(sound, transform.position);
 
 }
 
