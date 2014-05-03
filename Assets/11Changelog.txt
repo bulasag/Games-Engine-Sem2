@@ -1,0 +1,36 @@
+To-do list:
+- Obstacle course
+- Different cameras that can be switched to, rotating cameras
+- Remove y force from offset pursuit (?)
+- Scenario switch timers
+- Outro sequencing
+- Individual Path Finding
+
+Changes so far:
+- Changed flooring
+
+- Shortened the low feeler to let entities hover closer to the ground
+	-> makeFeelers() in SteeringBehaviours.cs
+	
+- Removed the y force to prevent entities from pitching up
+	-> ObstacleAvoidance() in SteeringBehaviours.cs
+	
+- Speed altered in SteeringManager.cs
+	-> timeModifiers
+
+- CreateObstacles operator overloading to allow height manipulation
+	-> CreateObstacle in Scenario.cs
+
+- Changed opening scenario and ordering through SteeringManager.cs so that StartingLineScenario is up first
+	-> currentScenario = scenarios[0];
+
+- Change models for leader + boids
+	-> Done by editing the avatar used for leaders and boids through GameManager
+	
+- Created opening title sequence
+	-> SteeringManager.cs countdown and GUI Labels
+	
+- Changed cammode params
+
+- Workaround for the scenario switching obstacle problem
+	-> Alter groundlevel for every scenario, alternate between 10 and 100 to prevent overlap
