@@ -1,0 +1,29 @@
+Inno Bulasag
+C10370619
+Games Engine 2 Assignment Script
+
+-> Starting Line Sequence
+	- Racers lined up at the starting line with a countdown running to signal the start of the race
+	- Obstacle Avoidance used throughout the scene
+
+-> Segment 1 "Slalom"
+	- Leader weaves in and out of "traffic" which are obstacles placed in the scene
+	- Camera follows from behind to give a racing game feel
+	
+-> Racer Death Scene
+	- One of the followers rams into an obstacle and explodes
+
+-> Race Continues On
+	- The remaining two racers continue on and are shown side by side
+	- Neck and neck race, the two simply seek a position in the distance
+	
+-> "Follower Slalom" Scene
+	- Similar to the first slalom, obstacles are set up and the follower then avoids them through Pathfinding
+	
+-> Finishing Sequence
+	- Cut the video just before the finish line
+	- No conclusive winner, tributes to wipeout
+	
+	
+YOUTUBE LINK:
+https://www.youtube.com/watch?v=d3P9ZoDfnd0
